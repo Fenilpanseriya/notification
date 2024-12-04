@@ -40,7 +40,7 @@ function App() {
     };
 }, []);
   const handleClick=async()=>{
-    fetch('http://localhost:5000/api/update', {
+    fetch('https://back-notification.onrender.com/api/update', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
