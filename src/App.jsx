@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // Connect to the WebSocket server
-    const socket = new WebSocket('ws://localhost:8080');
+    const socket = new WebSocket('wss://https://back-notification.onrender.com');
 
     // Handle connection opening
     socket.onopen = () => {
